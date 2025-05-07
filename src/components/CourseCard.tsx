@@ -96,7 +96,7 @@ const CourseCard: React.FC<CourseCardProps> = ({ course, index }) => {
           </div>
           <div className="flex items-center gap-2">
             <div className="w-2 h-2 rounded-full bg-green-500"></div>
-            <span className="text-gray-700">Uzsāc apmācības jau pēc 2 dienām</span>
+            <span className="text-gray-700">Uzsāc apmācības jau pēc {course.startDays} dienām</span>
           </div>
         </div>
         <div className="mt-4 flex justify-end">

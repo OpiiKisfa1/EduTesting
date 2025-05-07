@@ -5,6 +5,20 @@ import { SOCIAL_LINKS } from '../utils/constants';
 const Footer: React.FC = () => {
   const currentYear = new Date().getFullYear();
 
+  const scrollToReviews = () => {
+    const reviewsSection = document.getElementById('reviews');
+    if (reviewsSection) {
+      reviewsSection.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
+  const scrollToFAQ = () => {
+    const faqSection = document.getElementById('faq');
+    if (faqSection) {
+      faqSection.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   return (
     <footer className="bg-gray-900 text-white pt-16 pb-8">
       <div className="container mx-auto px-4">
@@ -43,8 +57,8 @@ const Footer: React.FC = () => {
               <li><a href="#" className="text-gray-400 hover:text-[#1c8f7a] transition-colors">Sākums</a></li>
               <li><a href="#courses" className="text-gray-400 hover:text-[#1c8f7a] transition-colors">Kursi</a></li>
               <li><a href="#" className="text-gray-400 hover:text-[#1c8f7a] transition-colors">Par Mums</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-[#1c8f7a] transition-colors">Atsauksmes</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-[#1c8f7a] transition-colors">BUJ</a></li>
+              <li><button onClick={scrollToReviews} className="text-gray-400 hover:text-[#1c8f7a] transition-colors">Atsauksmes</button></li>
+              <li><button onClick={scrollToFAQ} className="text-gray-400 hover:text-[#1c8f7a] transition-colors">BUJ</button></li>
             </ul>
           </div>
           

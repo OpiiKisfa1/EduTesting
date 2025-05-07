@@ -2,6 +2,8 @@ import React from 'react';
 import Hero from '../components/Hero';
 import CourseSection from '../components/CourseSection';
 import Newsletter from '../components/Newsletter';
+import Reviews from '../components/Reviews';
+import FAQ from '../components/FAQ';
 import ContactPopup from '../components/ContactPopup';
 
 const HomePage: React.FC = () => {
@@ -24,6 +26,8 @@ const HomePage: React.FC = () => {
       <Hero />
       <CourseSection />
       <Newsletter />
+      <Reviews />
+      <FAQ />
       <ContactPopup isOpen={showPopup} onClose={() => setShowPopup(false)} />
     </div>
   );

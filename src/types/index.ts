@@ -7,4 +7,13 @@ export interface Course {
   certificate: string;
   price: string;
   ageRange: string;
+  startDays: number;
+}
+
+export interface Review {
+  id: number;
+  name: string;
+  text: string;
+  rating: number;
+  course: string;
 }
