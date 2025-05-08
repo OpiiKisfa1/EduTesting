@@ -54,7 +54,7 @@ const Newsletter: React.FC = () => {
             Sazinies ar Mums
           </h2>
           <p className="text-lg text-gray-600 mb-8">
-            Atstājiet savu kontaktinformāciju, un mēs ar jums sazināsimies.
+            Vēlies zināt vairāk? Atstāj kontaktu – mēs sazināsimies un pastāstīsim visu par norisi un iespējām.
           </p>
 
           {submitStatus === 'success' ? (

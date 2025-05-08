@@ -22,11 +22,10 @@ const Hero: React.FC = () => {
           <div className="md:w-1/2 mb-8 md:mb-0 md:pr-8">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-4">
               Veido Savu Nākotni Caur{' '}
-              <span className="text-[#d8f043]">Interaktīvu Mācīšanos</span>
+              <span className="text-[#d8f043]">Online Mācīšanos</span>
             </h1>
             <p className="text-xl md:text-2xl mb-8 text-[#e0f2ef]">
-              Pievienojies mūsu tiešsaistes Zoom kursiem un apgūsti digitālās
-              prasmes rītdienas pasaulei.
+              Apgūsti nākotnes digitālās prasmes jau šodien – Online mācības bērniem un jauniešiem
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <button 
@@ -64,4 +63,4 @@ const Hero: React.FC = () => {
   );
 };
 
-export default Hero;
+export default Hero

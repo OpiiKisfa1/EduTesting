@@ -23,7 +23,7 @@ const FAQ: React.FC = () => {
               Kā notiek mācības?
             </h3>
             <p className="text-gray-600">
-              Visi kursi notiek tiešsaistē Zoom platformā, reizi nedēļā, ar praktiskiem projektiem un kvalificētu pasniedzēju atbalstu.
+              Visi kursi notiek tiešsaistē online platformā, reizi nedēļā, ar praktiskiem projektiem un kvalificētu pasniedzēju atbalstu.
             </p>
           </div>
 
@@ -41,7 +41,7 @@ const FAQ: React.FC = () => {
               Vai ir vecuma ierobežojumi?
             </h3>
             <p className="text-gray-600">
-              Jā, katram kursam ir savs vecuma diapazons no 8 līdz 17 gadiem atkarībā no tēmas.
+              Jā, katram kursam ir savs vecuma diapazons no 6 līdz 18 gadiem atkarībā no tēmas.
             </p>
           </div>
         </div>

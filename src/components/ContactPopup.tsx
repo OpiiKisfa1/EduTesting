@@ -66,9 +66,13 @@ const ContactPopup: React.FC<ContactPopupProps> = ({ isOpen, onClose }) => {
           <X size={24} />
         </button>
 
-        <h2 className="text-2xl font-bold text-gray-800 mb-6">
+        <h2 className="text-2xl font-bold text-gray-800 mb-4">
           Sazinies ar Mums
         </h2>
+        
+        <p className="text-gray-600 mb-6">
+          Piesakies jau tagad – vietu skaits ierobežots! Mēs sazināsimies un pastāstīsim, kā viss notiek
+        </p>
 
         <form onSubmit={handleSubmit}>
           <div className="mb-6">

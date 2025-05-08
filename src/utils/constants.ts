@@ -23,7 +23,7 @@ export const COURSES: Course[] = [
     certificate: 'Digitālās pratības sertifikāts',
     price: '60 € mēnesī',
     ageRange: '6-12 gadi',
-    startDays: 3
+    startDays: 2
   },
   {
     id: 2,
@@ -35,7 +35,7 @@ export const COURSES: Course[] = [
     certificate: 'Programmēšanas sertifikāts',
     price: '60 € mēnesī',
     ageRange: '9-18 gadi',
-    startDays: 4
+    startDays: 3
   },
   {
     id: 3,
